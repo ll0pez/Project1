@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$numbers=array("3","6","9","12");
+foreach ($numbers as $value)
+{
+    echo "$value<br/>";
+}
+echo "The product of the above values is " . (array_product($numbers))
+?>
+
+</body>
+</html>
